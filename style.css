@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    background-color: rgb(243, 202, 241);
+    font-family: "Arial", sans-serif;
+}
+
+h1{
+    color:rgb(247, 131, 208);
+}
+
+button{
+    padding: 10px;
+    font-size:18px;
+    background-color: rgb(228, 59, 59);
+    color:#ffffff;
+    border: none;
+    border-radius: ;
+    cursor:pointer;
+}
+
+button:hover {
+  background-color: #ffffff;
+  font-size: large;
+}

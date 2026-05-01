@@ -8,9 +8,18 @@ const fortunes = [
 
 const button = document.getElementById("omikujiButton");
 const result = document.getElementById("result");
+const advice = document.getElementById("advice");
 
 button.addEventListener("click", function () {
     const randomNumber = Math.floor(Math.random() * fortunes.lenght);
     const resultText = fortunes[(randomNumber)];
 
+    if (resultText.includes("大吉")) {
+        result.style.color = "red";
+
+    } else if (resultText.includes("中吉")) {
+        result.style.color = "green";
+    } else {
+        result.style.color = "black"
+    }
 });

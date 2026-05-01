@@ -7,7 +7,7 @@ const fortunes = [
 ];
 
 // ボタンと表示エリアを取得
-const button = document.getElementById("omikuji-bt");
+const button = document.getElementById("omikujiButton");
 const result = document.getElementById("result");
 
 //　ボタンがクリックされたときの処理

@@ -13,7 +13,6 @@ const result = document.getElementById("result");
 // ボタンがクリックされたときの処理
 button.addEventListener("click", function () {
     // ランダムな数字を作る
-
     const randomNumber = Math.floor(Math.random() * fortunes.lenght);
 
     //結果を表示

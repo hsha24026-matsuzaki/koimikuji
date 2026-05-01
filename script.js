@@ -6,15 +6,13 @@ const fortunes = [
     "凶 無理せず慎重に行動しよう"
 ];
 
-// ボタンと表示エリアを取得
 const button = document.getElementById("omikujiButton");
 const result = document.getElementById("result");
 
-// ボタンがクリックされたときの処理
 button.addEventListener("click", function () {
-    // ランダムな数字を作る
     const randomNumber = Math.floor(Math.random() * fortunes.lenght);
+    const resultText = fortunes[(randomNumber)];
 
-    //結果を表示
     result.textContent = fortunes[(randomNumber)];
+   
 });

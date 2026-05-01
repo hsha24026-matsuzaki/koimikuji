@@ -13,6 +13,4 @@ button.addEventListener("click", function () {
     const randomNumber = Math.floor(Math.random() * fortunes.lenght);
     const resultText = fortunes[(randomNumber)];
 
-    result.textContent = fortunes[(randomNumber)];
-   
 });
